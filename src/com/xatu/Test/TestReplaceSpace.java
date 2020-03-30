@@ -16,6 +16,11 @@ public class TestReplaceSpace {
         System.out.println(s);
         return s;
     }
+    /**
+     *方式二：使用apend方法拼接字符串
+     * @param str
+     * @return
+     */
     public static String replaceSpace2(StringBuffer str){
         StringBuilder stringBuilder = new StringBuilder();
         String s = str.toString();
